@@ -1,0 +1,47 @@
+cliente
+	id
+	nombre
+	activo
+	numLibreta
+	fecha nacimiento
+	tutor 1
+	tutor 2
+	diciplina
+	instructor
+	graduacion
+	tel1
+	tel2
+	direccion
+	email
+	ficha medica
+	fecha inscripcion
+factura
+	id
+	num
+	fk_cliente
+	fk_pagos
+	fecha
+	estado
+itemVenta
+	id
+	fk_factura
+	fk_producto
+	cantidad
+	importe
+Producto
+	id
+	nombre
+	acumulaStock
+	stock
+	precioCompra
+	precioVenta
+	
+pago
+	id
+	medioPago
+	estado
+	cuota
+	cuotaTotal
+	importe
+
+

@@ -1,0 +1,16 @@
+-crud de clientes
+	diferenciar clientes por colores en la lista
+-facturar
+-registrar pagos contados o tarjeta de credito
+-aceptar pago en cuotas
+-generar deuda de cuota automaticamente
+-generar estadisticas
+	grafico de ingresos
+-crud productos/servicios
+-imprimir lista de clientes
+	imprimir lista particular
+-imprimir lista de precios
+-permitir realizar descuentos
+-cobrar examenes
+	al creditarse el pago subir graduacion
+-generar lista examen
