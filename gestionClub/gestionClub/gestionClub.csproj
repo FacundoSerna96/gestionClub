@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>16265889_1810211199227693_8116670581019052548_n.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -102,6 +105,11 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Presentacion.Designer.cs" />
+    <Compile Include="Gestion_Clubes_DataBaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AboutBox1.resx" />
@@ -140,6 +148,17 @@
     <None Include="Datasets\Gestion_Clubes_DataBaseDataSet1.xss">
       <DependentUpon>Gestion_Clubes_DataBaseDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet.xsc">
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_Clubes_DataBaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet.xss">
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,7 +173,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="16265889_1810211199227693_8116670581019052548_n.ico" />
     <Content Include="Datasets\Gestion Clubes DataBase.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Gestion Clubes DataBase.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
