@@ -1,11 +1,12 @@
-C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\Gestion Clubes DataBase.accdb
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\gestionClub.exe.config
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\gestionClub.exe
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\gestionClub.pdb
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.csprojAssemblyReference.cache
-C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Form1.resources
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Properties.Resources.resources
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.csproj.GenerateResource.cache
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.csproj.CoreCompileInputs.cache
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.exe
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.pdb
+C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Forms.AboutBox1.resources
+C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Forms.ModuloProductos.resources
+C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\Datasets\Gestion Clubes DataBase.accdb

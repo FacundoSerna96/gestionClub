@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace gestionClub
+namespace gestionClub.Forms
 {
-    public partial class Form1 : Form
+    public partial class ModuloClientes : Form
     {
-        public Form1()
+        public ModuloClientes()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // TODO: esta línea de código carga datos en la tabla 'gestion_Clubes_DataBaseDataSet1.cliente' Puede moverla o quitarla según sea necesario.
-            this.clienteTableAdapter.Fill(this.gestion_Clubes_DataBaseDataSet1.cliente);
-
         }
     }
 }
