@@ -19,6 +19,8 @@ namespace gestionClub
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'gestion_Clubes_DataBaseDataSet1.cliente' Puede moverla o quitarla según sea necesario.
+            this.clienteTableAdapter.Fill(this.gestion_Clubes_DataBaseDataSet1.cliente);
 
         }
     }

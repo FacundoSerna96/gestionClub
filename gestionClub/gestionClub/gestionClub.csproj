@@ -52,6 +52,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion_Clubes_DataBaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Clubes_DataBaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -66,6 +76,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Gestion_Clubes_DataBaseDataSet.xsc">
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_Clubes_DataBaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet.xss">
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet1.xsc">
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_Clubes_DataBaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_Clubes_DataBaseDataSet1.xss">
+      <DependentUpon>Gestion_Clubes_DataBaseDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +110,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gestion Clubes DataBase.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
