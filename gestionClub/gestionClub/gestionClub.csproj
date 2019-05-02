@@ -62,6 +62,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Gestion_Clubes_DataBaseDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ON\Cliente.cs" />
+    <Compile Include="ON\Detalle.cs" />
+    <Compile Include="ON\Factura.cs" />
+    <Compile Include="ON\Pago.cs" />
+    <Compile Include="ON\Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
