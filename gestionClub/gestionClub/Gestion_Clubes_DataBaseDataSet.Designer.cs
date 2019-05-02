@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace gestionClub.Dataset {
+namespace gestionClub {
     
     
     /// <summary>
@@ -3718,7 +3718,7 @@ namespace gestionClub.Dataset {
         }
     }
 }
-namespace gestionClub.Dataset.Gestion_Clubes_DataBaseDataSetTableAdapters {
+namespace gestionClub.Gestion_Clubes_DataBaseDataSetTableAdapters {
     
     
     /// <summary>
