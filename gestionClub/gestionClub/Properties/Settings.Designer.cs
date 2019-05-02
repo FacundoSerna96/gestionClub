@@ -26,8 +26,8 @@ namespace gestionClub.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"|DataDirectory|\\Gestion Clubes Dat" +
-            "aBase.accdb\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"|DataDirectory|\\Dataset\\Gestion Cl" +
+            "ubes DataBase.accdb\"")]
         public string Gestion_Clubes_DataBaseConnectionString {
             get {
                 return ((string)(this["Gestion_Clubes_DataBaseConnectionString"]));
