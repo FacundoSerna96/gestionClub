@@ -61,10 +61,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\DetalleCliente.Designer.cs" />
-    <Compile Include="Forms\DetalleFactura.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\DetalleFactura.Designer.cs" />
     <Compile Include="Forms\DetalleProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +74,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Gestion_Clubes_DataBaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DetalleFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DetalleFactura.Designer.cs">
+      <DependentUpon>DetalleFactura.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ModuloClientes.cs">
       <SubType>Form</SubType>
@@ -113,8 +115,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AboutBox1.resx" />
+    <EmbeddedResource Include="Forms\DetalleFactura.resx">
+      <DependentUpon>DetalleFactura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ModuloClientes.resx">
       <DependentUpon>ModuloClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ModuloFacturas.resx">
+      <DependentUpon>ModuloFacturas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ModuloProductos.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">

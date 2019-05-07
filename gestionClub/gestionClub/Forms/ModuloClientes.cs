@@ -63,5 +63,17 @@ namespace gestionClub.Forms
         {
             Application.Exit();
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            DetalleFactura df = new DetalleFactura();
+            df.ShowDialog();
+        }
+
+        private void armarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DetalleFactura df = new DetalleFactura();
+            df.ShowDialog();
+        }
     }
 }
