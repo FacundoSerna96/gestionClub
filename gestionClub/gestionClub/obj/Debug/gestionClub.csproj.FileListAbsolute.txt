@@ -13,3 +13,4 @@ C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\Dat
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Forms.ModuloClientes.resources
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\bin\Debug\Gestion Clubes DataBase.accdb
 C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Forms.DetalleFactura.resources
+C:\Users\Facu\Documents\GitHub\gestionClub\gestionClub\gestionClub\obj\Debug\gestionClub.Forms.ModuloFacturas.resources
